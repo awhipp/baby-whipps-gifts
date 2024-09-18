@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import DashboardButton from './components/DashboardButton';
+import amazonImage from './images/amazon-registry.png';
+import targetImage from './images/target-registry.jpg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app-container">
+      <header className="app-header">
+        <h1>Whipp Baby Registries</h1>
       </header>
+
+      <main className="app-main">
+        <div className="button-grid">
+          <DashboardButton title="Amazon" imageUrl={amazonImage} link="#"/>
+          <DashboardButton title="Target" imageUrl={targetImage} link="#"/>
+        </div>
+      </main>
+
+      <footer className="app-footer">
+        <p>Coming Early 2025</p>
+      </footer>
     </div>
   );
 }

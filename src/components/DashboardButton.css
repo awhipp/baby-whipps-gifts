@@ -1,0 +1,36 @@
+.dashboard-button {
+    position: relative; /* Allows for absolute positioning of the text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Adjust the height as needed */
+    border-radius: 50px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .dashboard-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .button-content {
+    position: absolute; /* Position the content relative to the button */
+    bottom: -10%; /* Adjusts the distance from the bottom */
+    left: 50%;
+    min-width: 50%;
+    transform: translateX(-50%); /* Centers the text horizontally */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+  }
+  
+  .dashboard-button p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
