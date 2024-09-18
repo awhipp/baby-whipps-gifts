@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/whipp-baby-registries/static/css/main.f141b6cf.css",
+    "main.js": "/whipp-baby-registries/static/js/main.aa777925.js",
+    "static/js/453.5caed381.chunk.js": "/whipp-baby-registries/static/js/453.5caed381.chunk.js",
+    "static/media/amazon-registry.png": "/whipp-baby-registries/static/media/amazon-registry.d0df7ef07d6a9c90ef0b.png",
+    "static/media/target-registry.jpg": "/whipp-baby-registries/static/media/target-registry.a396b5942af922a2eb69.jpg",
+    "index.html": "/whipp-baby-registries/index.html",
+    "main.f141b6cf.css.map": "/whipp-baby-registries/static/css/main.f141b6cf.css.map",
+    "main.aa777925.js.map": "/whipp-baby-registries/static/js/main.aa777925.js.map",
+    "453.5caed381.chunk.js.map": "/whipp-baby-registries/static/js/453.5caed381.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f141b6cf.css",
+    "static/js/main.aa777925.js"
+  ]
+}
