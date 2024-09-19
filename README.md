@@ -36,13 +36,11 @@ cd whipp-baby-registries
 npm install
 ```
 
-## Deployment to GitHub Pages
+## Deployment to Netlify
 
-```bash
-npm run deploy
-```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ff328da6-c9dd-4fe6-bf43-205b27c83204/deploy-status)](https://app.netlify.com/sites/babywhipp/deploys)
 
-After deployment, the app will be available at https://awhipp.github.io/whipp-baby-registries
+After deployment, the app will be available at https://babywhipp.com
 
 ## License
 
