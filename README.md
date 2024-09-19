@@ -1,4 +1,4 @@
-# Whipp Baby Registries
+# Baby Whipp's Gifts React UI
 
 This is a React application deployed to GH Pages that hosts a central portal for the various baby registries.
 

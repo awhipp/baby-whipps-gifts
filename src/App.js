@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1>Whipp Baby Registries</h1>
+        <h1>Baby Whipp's Gifts</h1>
       </header>
 
       <main className="app-main">
