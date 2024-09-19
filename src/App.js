@@ -9,6 +9,7 @@ function App() {
     <div className="app-container">
       <header className="app-header">
         <h1>Baby Whipp's Gifts</h1>
+        <p>A registry portal for all things baby Whipp.</p>
       </header>
 
       <main className="app-main">

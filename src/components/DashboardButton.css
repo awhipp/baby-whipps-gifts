@@ -3,14 +3,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px; /* Adjust the height as needed */
+    height: 225px; /* Adjust the height as needed */
     border-radius: 50px;
-    margin-top: 2em;
-    margin-bottom: 2em;
     background-size: cover;
     background-position: center;
     text-align: center;
     transition: transform 0.3s ease;
+    border: 1px solid navy;
+    max-width: 95%;
+    margin: 0 auto;
   }
   
   .dashboard-button:hover {
@@ -23,10 +24,11 @@
     left: 50%;
     min-width: 50%;
     transform: translateX(-50%); /* Centers the text horizontally */
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    background-color: rgba(1, 1, 122, 0.8); /* Semi-transparent background */
     color: white;
     padding: 5px 10px;
     border-radius: 15px;
+    border: 1px solid lightblue;
   }
   
   .dashboard-button p {

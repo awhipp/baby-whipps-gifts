@@ -1,3 +1,7 @@
+.app-main {
+    background-color: #fafafa;
+}
+
 .app-container {
     display: flex;
     flex-direction: column;
@@ -5,16 +9,27 @@
   }
   
   .app-header, .app-footer {
-    background-color: #282c34;
-    color: white;
+    background-color: lightblue;
+    color: navy;
     text-align: center;
     padding: 0;
+    border-top: 1px solid navy;
+    border-bottom: 1px solid navy;
   }
   
   .app-header {
     font-size: 2rem;
   }
+
+  .app-header h1 {
+    margin-bottom: 0;
+  }
   
+  .app-header p {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+
   .app-main {
     flex: 1;
     display: flex;
@@ -24,14 +39,30 @@
 
   .button-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 4em;
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
+    margin: 2em 0;
   }
   
   .app-footer {
     font-size: 1rem;
   }
   
+/* Cell phone styling */
+
+@media (max-width: 600px) {
+    .app-header {
+      font-size: 1rem;
+      padding-top: 1em;
+    }
+  
+    .app-header p {
+      font-size: 0.8rem;
+    }
+  
+    .app-footer {
+      font-size: 0.8rem;
+    }
+  }
