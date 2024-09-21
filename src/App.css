@@ -39,12 +39,18 @@
 
   .button-grid {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 4em;
     width: 100%;
-    max-width: 800px;
-    margin: 2em 0;
+    max-width: 1200px;
+    margin: 2em auto;
   }
+
+  /* 3rd button-grid span 2 */
+  /* .button-grid .stretch {
+    grid-column: span 2;
+  } */
   
   .app-footer {
     font-size: 1rem;
@@ -52,7 +58,7 @@
   
 /* Cell phone styling */
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .app-header {
       font-size: 1rem;
       padding-top: 1em;
@@ -65,4 +71,11 @@
     .app-footer {
       font-size: 0.8rem;
     }
+    .button-grid {
+      grid-template-columns: 1fr;
+      gap: 2em;
+    }
+    /* .button-grid .stretch {
+      grid-column: span 1;
+    } */
   }
