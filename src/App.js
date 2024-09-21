@@ -3,6 +3,7 @@ import './App.css';
 import DashboardButton from './components/DashboardButton';
 import amazonImage from './images/amazon-registry.png';
 import targetImage from './images/target-registry.jpg';
+import paypalImage from './images/paypal-registry.jpg';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <div className="button-grid">
           <DashboardButton title="Amazon" imageUrl={amazonImage} link="#"/>
           <DashboardButton title="Target" imageUrl={targetImage} link="#"/>
+          <DashboardButton title="Cash Contribution" imageUrl={paypalImage} link="#"/>
         </div>
       </main>
 
