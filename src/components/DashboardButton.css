@@ -5,12 +5,12 @@
     align-items: center;
     height: 225px; /* Adjust the height as needed */
     border-radius: 50px;
+    max-width: 500px;
     background-size: cover;
     background-position: center;
     text-align: center;
     transition: transform 0.3s ease;
     border: 1px solid navy;
-    max-width: 95%;
     margin: 0 auto;
   }
   
